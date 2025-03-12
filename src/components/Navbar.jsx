@@ -13,7 +13,8 @@ function BasicExample() {
           <Nav className="me-auto">
             <Nav.Link href="#home">About</Nav.Link>
             <Nav.Link href="#link">Project</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <Nav.Link href="#link">Contact</Nav.Link>
+            <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Contact</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another information
