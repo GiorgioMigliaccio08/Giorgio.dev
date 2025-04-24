@@ -5,15 +5,15 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" style={{ backgroundColor: "#add8e6" }}>
       <Container>
         <Navbar.Brand href="#home">Giorgio Dev</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#link">Project</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="#projects">Project</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Contact</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
